@@ -23,7 +23,7 @@ A set of bash scripts for organizing photos and videos based on their EXIF creat
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/exif-sort.git
+git clone https://github.com/aleksgain/exif-sort.git
 cd exif-sort
 ```
 
