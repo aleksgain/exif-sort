@@ -4,9 +4,9 @@
 source_dir="/volume1/photo/Video"     # Base directory to scan
 dest_dir="/volume1/photo/Video"       # Destination directory for videos
 delete_dir="/volume1/photo/DELETE"    # Directory for small videos
-exiftool_path="/var/services/homes/aleksgain/ExifTool/exiftool"  # Path to ExifTool
-log_file="/var/services/homes/aleksgain/scripts/logs/exif_video_$(date +%Y%m%d_%H%M%S).log"  # Default log file location
-ignore_dir="/volume1/photo/Video/Edited Videos"  # Directory to ignore
+exiftool_path="/usr/share/applications/ExifTool/exiftool"  # Path to ExifTool
+log_file="/var/services/homes/username/scripts/logs/exif_video_$(date +%Y%m%d_%H%M%S).log"  # Default log file location
+ignore_dir="/volume1/photo/Video/Ignore"  # Directory to ignore
 
 # Parse command line arguments
 dry_run=false
