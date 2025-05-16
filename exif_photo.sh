@@ -4,9 +4,9 @@
 source_dir="/volume1/photo/Photo"     # Base directory to scan
 dest_dir="/volume1/photo/Photo"       # Destination directory for photos
 delete_dir="/volume1/photo/DELETE"    # Directory for small images
-exiftool_path="/var/services/homes/aleksgain/ExifTool/exiftool"  # Path to ExifTool
-log_file="/var/services/homes/aleksgain/scripts/logs/exif_photo_$(date +%Y%m%d_%H%M%S).log"  # Default log file location
-ignore_dir="/volume1/photo/Photo/Edited Photos"  # Directory to ignore
+exiftool_path="/usr/share/applications/ExifTool/exiftool"  # Path to ExifTool
+log_file="/var/services/homes/username/scripts/logs/exif_photo_$(date +%Y%m%d_%H%M%S).log"  # Default log file location
+ignore_dir="/volume1/photo/Photo/Ignore"  # Directory to ignore
 
 # Parse command line arguments
 dry_run=false
